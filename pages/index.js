@@ -1,6 +1,7 @@
 import Head from "next/head";
 import HeroSection from "../components/HeroSection";
 import Navbar from "../components/Navbar";
+import Sidebar from "../components/Sidebar";
 import InfoSection from "../components/InfoSection";
 import Services from "../components/Services";
 import Footer from "../components/Footer";
@@ -28,6 +29,7 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <HeroSection />
       <InfoSection {...homeObjOne} />
