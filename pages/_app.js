@@ -1,6 +1,6 @@
 import "../styles/globals.css";
 import { IntlProvider } from "react-intl";
-import { messages } from "./translate";
+import { messages } from "../components/translate";
 import { createContext, useReducer } from "react";
 
 export const LangContext = createContext();
