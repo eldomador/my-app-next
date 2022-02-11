@@ -16,7 +16,7 @@ export const messages = {
 
     apps: "My apps",
     app1: "Random recipe app",
-    app2: "Todo app",
+    app2: "Car service",
     app3: "Weather app",
     graphicTopLine: "Graphic Design",
     graphicHeadline: "Banners and logos",
@@ -53,8 +53,8 @@ export const messages = {
 
     apps: "Moje aplikacje",
     app1: "Generator losowych przpisów",
-    app2: "Lista rzeczy do zrobienia",
-    app3: "Aplikacja Pogodowa",
+    app2: "Serwis samochodowy",
+    app3: "Aplikacja pogodowa",
 
     graphicTopLine: "Grafika komputerowa",
     graphicHeadline: "Banery i loga",

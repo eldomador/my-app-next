@@ -24,11 +24,11 @@ const Services = () => {
           <ServicesH2> {intl.formatMessage({ id: "app1" })}</ServicesH2>
         </ServicesCard>
         <ServicesCard
-          href="https://tooooodo.netlify.app/"
+          href="https://serwis-paz.netlify.app/"
           target="_blank"
           aria-label="Todo app"
         >
-          <ServicesIcon src={"/undraw_project_completed.svg"} />
+          <ServicesIcon src={"/undraw_fast_car.svg"} />
           <ServicesH2> {intl.formatMessage({ id: "app2" })}</ServicesH2>
         </ServicesCard>
 
